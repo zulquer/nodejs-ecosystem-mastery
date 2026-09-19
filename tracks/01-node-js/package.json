@@ -1,0 +1,23 @@
+{
+  "name": "node-js-senior-core",
+  "version": "1.0.0",
+  "description": "Ruta de Aprendizaje de Node.js por Niveles: Fundamentals, Trainee, Junior, Intermediate, Senior",
+  "type": "module",
+  "scripts": {
+    "senior:m1:1": "node 05-senior/01-event-loop-and-internals/01-microtasks-vs-macrotasks.js",
+    "senior:m1:2": "node 05-senior/01-event-loop-and-internals/02-nexttick-vs-setimmediate-io.js",
+    "senior:m1:3": "node 05-senior/01-event-loop-and-internals/03-event-loop-starvation-and-delay.js",
+    "senior:m2:1": "node 05-senior/02-buffers-and-binary-data/01-alloc-vs-alloc-unsafe.js",
+    "senior:m2:2": "node 05-senior/02-buffers-and-binary-data/02-slab-allocation-and-memory-leaks.js",
+    "senior:m2:3": "node 05-senior/02-buffers-and-binary-data/03-buffer-views-and-zero-copy.js",
+    "senior:m3:1": "node 05-senior/03-streams-and-backpressure/01-backpressure-and-drain.js",
+    "senior:m3:2": "node 05-senior/03-streams-and-backpressure/02-pipeline-vs-pipe-leaks.js",
+    "senior:m3:3": "node 05-senior/03-streams-and-backpressure/03-custom-transform-and-generators.js",
+    "senior:m4:1": "node 05-senior/04-async-context-and-events/01-async-local-storage-tracing.js",
+    "senior:m4:2": "node 05-senior/04-async-context-and-events/02-abort-controller-and-timeouts.js",
+    "senior:m4:3": "node 05-senior/04-async-context-and-events/03-event-emitter-leaks-and-signals.js",
+    "senior:m5:1": "node 05-senior/05-concurrency-and-threads/01-libuv-threadpool-starvation.js",
+    "senior:m5:2": "node 05-senior/05-concurrency-and-threads/02-worker-threads-and-atomics.js",
+    "senior:m5:3": "node 05-senior/05-concurrency-and-threads/03-cluster-and-zero-downtime.js"
+  }
+}

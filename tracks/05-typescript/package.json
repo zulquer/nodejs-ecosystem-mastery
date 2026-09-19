@@ -1,0 +1,14 @@
+{
+  "name": "typescript-senior-mastery",
+  "version": "1.0.0",
+  "description": "Ruta de TypeScript por Niveles de Seniority: Fundamentals a Senior Type Gymnastics",
+  "type": "module",
+  "scripts": {
+    "lab:senior:01": "tsx 04-senior-type-gymnastics/01-conditional-types-and-infer.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

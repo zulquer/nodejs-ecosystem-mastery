@@ -1,0 +1,23 @@
+{
+  "name": "nest-js-senior-mastery",
+  "version": "1.0.0",
+  "description": "Mastery de Arquitectura e Internals de NestJS a nivel Senior / Staff Engineer (30+ Labs)",
+  "type": "module",
+  "scripts": {
+    "lab01": "tsx 01-request-lifecycle-pipeline/01-lifecycle-execution-order.ts",
+    "lab02": "tsx 01-request-lifecycle-pipeline/02-polymorphic-execution-context.ts",
+    "lab03": "tsx 01-request-lifecycle-pipeline/03-reflector-metadata-hierarchy.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/platform-express": "^10.4.22",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

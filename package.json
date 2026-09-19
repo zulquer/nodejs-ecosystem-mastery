@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-ecosystem-mastery",
+  "version": "1.0.0",
+  "description": "Node.js Ecosystem Mastery: Node.js Core por Niveles (Fundamentals a Senior), Express, NestJS, Testing, TypeScript y ECMAScript",
+  "type": "module",
+  "scripts": {
+    "node:senior:m1:1": "node tracks/01-node-js/05-senior/01-event-loop-and-internals/01-microtasks-vs-macrotasks.js",
+    "node:senior:m1:2": "node tracks/01-node-js/05-senior/01-event-loop-and-internals/02-nexttick-vs-setimmediate-io.js",
+    "node:senior:m1:3": "node tracks/01-node-js/05-senior/01-event-loop-and-internals/03-event-loop-starvation-and-delay.js",
+    "node:senior:m2:1": "node tracks/01-node-js/05-senior/02-buffers-and-binary-data/01-alloc-vs-alloc-unsafe.js",
+    "node:senior:m2:2": "node tracks/01-node-js/05-senior/02-buffers-and-binary-data/02-slab-allocation-and-memory-leaks.js",
+    "node:senior:m2:3": "node tracks/01-node-js/05-senior/02-buffers-and-binary-data/03-buffer-views-and-zero-copy.js",
+    "node:senior:m3:1": "node tracks/01-node-js/05-senior/03-streams-and-backpressure/01-backpressure-and-drain.js",
+    "node:senior:m3:2": "node tracks/01-node-js/05-senior/03-streams-and-backpressure/02-pipeline-vs-pipe-leaks.js",
+    "node:senior:m3:3": "node tracks/01-node-js/05-senior/03-streams-and-backpressure/03-custom-transform-and-generators.js",
+    "node:senior:m4:1": "node tracks/01-node-js/05-senior/04-async-context-and-events/01-async-local-storage-tracing.js",
+    "node:senior:m4:2": "node tracks/01-node-js/05-senior/04-async-context-and-events/02-abort-controller-and-timeouts.js",
+    "node:senior:m4:3": "node tracks/01-node-js/05-senior/04-async-context-and-events/03-event-emitter-leaks-and-signals.js",
+    "node:senior:m5:1": "node tracks/01-node-js/05-senior/05-concurrency-and-threads/01-libuv-threadpool-starvation.js",
+    "node:senior:m5:2": "node tracks/01-node-js/05-senior/05-concurrency-and-threads/02-worker-threads-and-atomics.js",
+    "node:senior:m5:3": "node tracks/01-node-js/05-senior/05-concurrency-and-threads/03-cluster-and-zero-downtime.js",
+    "express:senior:01": "tsx tracks/02-express-js/04-senior-internals/01-async-error-handling-and-pipeline.ts",
+    "express:senior:02": "tsx tracks/02-express-js/04-senior-internals/02-custom-middleware-onion-and-tracing.ts",
+    "express:senior:03": "tsx tracks/02-express-js/04-senior-internals/03-security-and-resilience-stack.ts",
+    "nest:lab01": "npm --prefix tracks/03-nest-js run lab01",
+    "test:senior:01": "tsx tracks/04-testing/04-senior-internals/01-custom-test-runner-engine.ts",
+    "test:senior:02": "tsx tracks/04-testing/04-senior-internals/02-mock-system-and-spies.ts",
+    "test:senior:03": "tsx tracks/04-testing/04-senior-internals/03-mutation-testing-and-coverage.ts",
+    "ts:senior:01": "tsx tracks/05-typescript/04-senior-type-gymnastics/01-conditional-types-and-infer.ts",
+    "es:modern": "node tracks/06-ecmascript/04-es2023-to-es2025/01-modern-features-showcase.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.13"
+  }
+}

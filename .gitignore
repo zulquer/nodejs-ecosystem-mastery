@@ -1,0 +1,51 @@
+# Dependencias
+node_modules/
+node_modules
+/.pnp
+.pnp.js
+
+# Testing y Cobertura
+coverage/
+.nyc_output/
+
+# Build & Bundling
+dist/
+build/
+out/
+.next/
+.turbo/
+.cache/
+
+# Entornos y Secretos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-workspace
+*.sublime-project

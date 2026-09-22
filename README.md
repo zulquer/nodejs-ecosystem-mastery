@@ -4,6 +4,20 @@ Repositorio maestro de referencia técnica profunda para consolidar habilidades 
 
 ---
 
+## 🎯 Banco de 400 Preguntas de Entrevista Técnica
+
+Para preparar entrevistas técnicas de alto nivel (**Senior Node.js, NestJS Architect, Express Specialist, Backend Tech Lead y Staff Engineer**), este módulo incluye un **banco exhaustivo de 400 preguntas con código en producción y criterios de evaluación (🚩 Red Flags vs 🟢 Green Flags)**:
+
+| Guía Técnica | Preguntas | Temas Clave | Enlace Directo |
+| :--- | :---: | :--- | :--- |
+| 🧭 **Hub Maestro & Matriz por Rol** | **400** | Visión transversal, tabla de contenidos completa y matriz de evaluación. | [Ver Hub Maestro](./INTERVIEW-QUESTIONS.md) |
+| 🟢 **Node.js Core & Runtime** | **100** | V8 (Ignition/TurboFan), Libuv, Memory Slabs 8KB, Backpressure, Worker Threads, Atomics. | [Ver 100 Preguntas](./INTERVIEW-QUESTIONS-NODEJS.md) |
+| ⚡ **Express.js Architecture** | **100** | Onion Middleware, Express 4 vs 5, RFC 7807, Security (Helmet/Rate-limit), Streaming, Fastify vs Express. | [Ver 100 Preguntas](./INTERVIEW-QUESTIONS-EXPRESS.md) |
+| 🦁 **NestJS Enterprise Architecture** | **100** | IoC Container, Request Lifecycle, Dynamic Modules, CQRS, Microservices (Kafka/RMQ), Fastify Adapter. | [Ver 100 Preguntas](./INTERVIEW-QUESTIONS-NESTJS.md) |
+| 🔷 **TypeScript, Testing & ECMAScript** | **100** | Conditional Types, Branded Types, Test Doubles, Testcontainers, MSW, Mutation Testing, Modern JS. | [Ver 100 Preguntas](./INTERVIEW-QUESTIONS-TYPESCRIPT.md) |
+
+---
+
 ## 🌐 The Mastery Suite (Ecosistema Modular)
 
 Para mantener una arquitectura limpia y desacoplada, los conocimientos especializados de frontend, backend agnóstico, DevOps, ciencia de datos y metodologías se organizan en repositorios dedicados:

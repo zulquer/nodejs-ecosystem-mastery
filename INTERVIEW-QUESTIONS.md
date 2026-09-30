@@ -1,19 +1,19 @@
 # 🟢 Node.js Ecosystem Mastery: Hub Maestro de Preguntas de Entrevistas Técnicas
 
-> **Total: 400 Preguntas Técnicas de Alto Nivel** divididas en 4 guías especializadas de 100 preguntas cada una, diseñadas para roles de **Senior Node.js Developer, NestJS Architect, Express Specialist, Backend Tech Lead y Staff Systems Engineer**.
+> **Total: 450 Preguntas Técnicas de Alto Nivel** divididas en 4 guías especializadas (150 en Node.js Core y 100 en cada framework/lenguaje), diseñadas para roles de **Junior, Mid-Level, Senior Node.js Developer, NestJS Architect, Express Specialist, Backend Tech Lead y Staff Systems Engineer**.
 
 ---
 
-## 🧭 Estructura del Ecosistema de Entrevistas (400 Preguntas)
+## 🧭 Estructura del Ecosistema de Entrevistas (450 Preguntas)
 
 En el desarrollo profesional con Node.js, las entrevistas técnicas profundas evalúan tanto el runtime subyacente (V8, Libuv, memoria, hilos) como los frameworks dominantes del mercado (Express y NestJS) y la calidad mediante TypeScript estricto y testing moderno.
 
-Para garantizar máxima exhaustividad y profundidad técnica sin omitir ningún detalle crítico, este módulo se divide en 4 volúmenes dedicados de **100 preguntas cada uno**:
+Para garantizar máxima exhaustividad y profundidad técnica sin omitir ningún detalle crítico, este módulo se divide en 4 volúmenes dedicados:
 
 ```
 nodejs-ecosystem-mastery/
 ├── INTERVIEW-QUESTIONS.md                <-- [ESTE HUB MAESTRO]
-├── INTERVIEW-QUESTIONS-NODEJS.md         <-- 100 Preguntas: Node.js Core, V8, Libuv & Concurrencia
+├── INTERVIEW-QUESTIONS-NODEJS.md         <-- 150 Preguntas: Node.js Core, Fundamentos, V8, Libuv & Concurrencia
 ├── INTERVIEW-QUESTIONS-EXPRESS.md        <-- 100 Preguntas: Express.js, Middlewares & Arquitectura
 ├── INTERVIEW-QUESTIONS-NESTJS.md         <-- 100 Preguntas: NestJS Enterprise, IoC, CQRS & Microservicios
 └── INTERVIEW-QUESTIONS-TYPESCRIPT.md     <-- 100 Preguntas: TypeScript Avanzado, Testing & ECMAScript
@@ -23,7 +23,7 @@ nodejs-ecosystem-mastery/
 
 ## 📚 Acceso Directo a las 4 Guías Especializadas
 
-### 1. 🟢 [Node.js Core & Runtime Mastery (100 Preguntas)](./INTERVIEW-QUESTIONS-NODEJS.md)
+### 1. 🟢 [Node.js Core & Runtime Mastery (150 Preguntas)](./INTERVIEW-QUESTIONS-NODEJS.md)
 *Enfoque: Internals del runtime, bajo nivel, escalabilidad de sockets y concurrencia.*
 - **Motor V8, Gestión de Memoria y Garbage Collection (Preguntas 1-12)**:
   - Compilador Ignition vs TurboFan, hidden classes (*Shapes*), inline caching.
